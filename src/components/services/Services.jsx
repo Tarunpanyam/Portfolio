@@ -11,29 +11,33 @@ const Services = () => {
       <div className="container services__container">
         <article className="services">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Front-End Optimization</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Reduce bundle size and enhance application performance</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Implement features like Infinity scroll and Debouncing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Optimize React applications for efficient re-rendering</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Utilize webpack configuration for environment-based optimizations</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Conduct performance testing using Lighthouse and developer tools</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon"/>
+              <p>Ensure cross-device compatibility through responsive design techniques</p>
             </li>
           </ul>
         </article>
@@ -47,7 +51,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Developed websites using mulitple frameworks</p>
+              <p>Develop scalable and interactive web applications</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
@@ -55,19 +59,19 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Utilize React JS, Node JS, and other frameworks effectively</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Ensure optimized performance and responsiveness</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Employ Redux for efficient state management</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Ensure compliance with web accessibility and security standards</p>
             </li>
           </ul>
         </article>
@@ -75,29 +79,29 @@ const Services = () => {
 
         <article className="services">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Full-Stack Integration</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Technology dicussion with community via YouTube, blogs etc.. </p>
+              <p>Develop reusable components and custom hooks </p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Integrate frontend with backend services using RESTful APIs</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Employ Redux and Redux-SAGA for comprehensive state management</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Collaborate with cross-functional teams following Agile methodology</p>
             </li>
             <li>
               <BiCheck className="service__list-icon"/>
-              <p>Futurestic Web designing using latest Tech Stack</p>
+              <p>Utilize Git and Bitbucket for version control and code review</p>
             </li>
           </ul>
         </article>

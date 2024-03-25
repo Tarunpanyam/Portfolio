@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    div[data-testid="1"]{
+        padding-top: 50px;
+    }
+    div[data-testid="2"]{
+        padding-top: 77px;
+    }
 }
 
 .portfolio__item {

@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.jpeg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
@@ -11,44 +11,23 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'ETL Application',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Client Connect',
+    github: 'https://www.eddytandesign.com/client-serving-dbs',
+    demo: 'https://www.eddytandesign.com/client-serving-dbs'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'ETL Application',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Spanish Bolo',
+    github: 'https://spanishbolo.com',
+    demo: 'https://spanishbolo.com'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'ETL Application',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'ETL Application',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'ETL Application',
-    github: 'https://github.com',
-    demo: 'https://github.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'ETL Application',
-    github: 'https://github.com',
-    demo: 'https://github.com'
+    title: 'Chi-Square Correlation of Heart-Rate and Blood-Pressure',
+    github: 'https://github.com/Tarunpanyam/Chi-Square-Correlation-of-Heart-Rate-and-Blood-Pressure/tree/main',
+    demo: 'https://github.com/Tarunpanyam/Chi-Square-Correlation-of-Heart-Rate-and-Blood-Pressure/tree/main'
   }
 ]
 
@@ -67,7 +46,7 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <div className="portfolio__item-cta">
+              <div className="portfolio__item-cta" data-testid={id}>
                 <a href={github} className='btn' target="_blank">GitHub</a>
                 <a href={demo} className='btn btn-primary' target="_blank">Live Demo</a>
               </div>
